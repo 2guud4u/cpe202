@@ -41,5 +41,3 @@ class sorts:
         num = self.selectionSort(alist2)
         print('selection:', "--- %s seconds ---" % (time.time() - start_time))
         print('and did', num, 'comparisons')
-test = sorts()
-test.test(1000)

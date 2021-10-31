@@ -10,9 +10,5 @@ class MyTestCase(unittest.TestCase):
         test.test(8000)
         test.test(16000)
         test.test(32000)
-        test.test(100000)
-        test.test(500000)
-        test.test(1000000)
-        test.test(10000000)
 if __name__ == '__main__':
     unittest.main()
