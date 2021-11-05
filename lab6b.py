@@ -62,6 +62,7 @@ class quickysort_median(quicksorty_first):# class for median sort
         median_list.append(alist[len(alist) - 1])
         median_list.append(alist[int(len(alist)/2)])
         self.quickSortHelper(median_list, 0, len(median_list) - 1)
+
         median = alist.index(median_list[1])
         temp = alist[0]
         alist[0] = alist[median]
